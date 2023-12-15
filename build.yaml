@@ -1,0 +1,13 @@
+# https://github.com/dart-lang/build/blob/master/build_config/README.md
+builders:
+  protocBuilder:
+    import: "lib/src/protocbuilder.dart"
+    builder_factories: ["protocBuilder"]
+    build_extensions:
+      "$package$":
+      - ".pb.dart"
+      - ".pbenum.dart"
+      - ".pbjson.dart"
+      - ".pbserver.dart"
+    build_to: source
+    auto_apply: root_package
