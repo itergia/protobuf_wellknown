@@ -1,6 +1,6 @@
 name: protobuf_wellknown
 description: The well-known types from the Google Protobuf compiler, in Dart.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/itergia/protobuf_wellknown
 homepage: https://github.com/itergia/protobuf_wellknown
 
@@ -10,7 +10,7 @@ environment:
 dependencies:
   build: ^2.4.1
   fixnum: ^1.1.0
-  path: ^1.9.0
+  path: ^1.8.0
   protobuf: ^3.1.0
 
 dev_dependencies:
